@@ -35,6 +35,7 @@
             this.number1 = new System.Windows.Forms.Label();
             this.number2 = new System.Windows.Forms.Label();
             this.result = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // inputNumber1
@@ -63,12 +64,14 @@
             // 
             // clear
             // 
+            this.clear.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.clear.Location = new System.Drawing.Point(168, 217);
             this.clear.Name = "clear";
             this.clear.Size = new System.Drawing.Size(75, 23);
             this.clear.TabIndex = 1;
             this.clear.Text = "清除";
             this.clear.UseVisualStyleBackColor = true;
+            this.clear.Click += new System.EventHandler(this.clear_Click);
             // 
             // number1
             // 
@@ -96,6 +99,17 @@
             this.result.Size = new System.Drawing.Size(0, 12);
             this.result.TabIndex = 2;
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(22, 104);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(83, 12);
+            this.linkLabel1.TabIndex = 3;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "www.baidu.com";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // Form1
             // 
             this.AcceptButton = this.calculate;
@@ -103,6 +117,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.clear;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.result);
             this.Controls.Add(this.number2);
             this.Controls.Add(this.number1);
@@ -130,6 +145,7 @@
         private System.Windows.Forms.Label number1;
         private System.Windows.Forms.Label number2;
         private System.Windows.Forms.Label result;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 
