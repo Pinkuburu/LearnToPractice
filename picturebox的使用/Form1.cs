@@ -44,7 +44,7 @@ namespace picturebox的使用
 
         private void button2_Click(object sender, EventArgs e)
         {
-            button3.Visible = true;
+                            button3.Visible = true;
             button2.Visible = false;
 
             pictureBox1.Image = new Bitmap("D:\\Pictures\\1152625.jpg");
