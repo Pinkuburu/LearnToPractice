@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "单选按钮和复选按钮
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "复选框的学习", "复选框的学习\复选框的学习.csproj", "{55302EA8-372A-4B7B-A9C5-CC18C9FF9CB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "列表框和组合框", "列表框和组合框\列表框和组合框.csproj", "{1DA5B979-9B57-4EAB-8A90-E8A4EBEAB539}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{55302EA8-372A-4B7B-A9C5-CC18C9FF9CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55302EA8-372A-4B7B-A9C5-CC18C9FF9CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55302EA8-372A-4B7B-A9C5-CC18C9FF9CB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DA5B979-9B57-4EAB-8A90-E8A4EBEAB539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DA5B979-9B57-4EAB-8A90-E8A4EBEAB539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DA5B979-9B57-4EAB-8A90-E8A4EBEAB539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DA5B979-9B57-4EAB-8A90-E8A4EBEAB539}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
